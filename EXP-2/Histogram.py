@@ -1,12 +1,35 @@
-import matplotlib.pyplot as plt
-marks = [45, 50, 52, 55, 58, 60, 62, 65,68, 70, 72, 75, 78, 80, 82, 85,88, 90]
-plt.hist(marks, bins=5, edgecolor="black")
-plt.title("Distribution of Marks")
-plt.xlabel("Marks")
-plt.ylabel("Frequency")
-plt.show()
+## Program: Histogram Using Matplotlib
 
-"""Program Explanation:
-The hist() function groups numerical values into intervals called bins. The height of each bar
-represents the frequency of observations in that interval. A histogram is useful for understanding
-the distribution of data."""
+```python
+import matplotlib.pyplot as plt
+
+student_scores = [
+    45, 50, 52, 55, 58, 60, 62, 65, 68,
+    70, 72, 75, 78, 80, 82, 85, 88, 90
+]
+
+plt.hist(student_scores, bins=5, edgecolor="black",
+         color="lightgreen")
+plt.title("Frequency Distribution of Student Scores")
+plt.xlabel("Score Ranges")
+plt.ylabel("Number of Students")
+plt.show()
+```
+
+### Program Explanation
+
+- `matplotlib.pyplot` provides the functions needed to create the histogram.
+- `student_scores` stores the marks used for the analysis.
+- `plt.hist()` divides the numerical values into five intervals, called bins, and displays the frequency of observations in each interval.
+- `edgecolor="black"` adds outlines to the bars so that the intervals are easier to distinguish.
+- `plt.title()` specifies the heading of the graph.
+- `plt.xlabel()` and `plt.ylabel()` identify the information shown on the horizontal and vertical axes.
+- `plt.show()` displays the completed histogram.
+
+### Sample Output
+
+A histogram titled **“Frequency Distribution of Student Scores”** is displayed. The bars represent how many scores fall within each of the five intervals.
+
+### Result
+
+A histogram was generated successfully using Matplotlib to examine the frequency distribution of student marks.
