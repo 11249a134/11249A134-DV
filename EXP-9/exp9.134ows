@@ -1,61 +1,93 @@
-<?xml version='1.0' encoding='utf-8'?>
-<scheme version="2.0" title="" description="">
-	<nodes>
-		<node id="0" name="CSV File Import" qualified_name="Orange.widgets.data.owcsvimport.OWCSVFileImport" project_name="Orange3" version="" title="CSV File Import" position="(150, 150)" />
-		<node id="1" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(300, 150)" />
-		<node id="2" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot" position="(453.0, 224.0)" />
-		<node id="3" name="Distributions" qualified_name="Orange.widgets.visualize.owdistributions.OWDistributions" project_name="Orange3" version="" title="Distributions" position="(447.0, 354.0)" />
-		<node id="4" name="Bar Plot" qualified_name="Orange.widgets.visualize.owbarplot.OWBarPlot" project_name="Orange3" version="" title="Bar Plot" position="(441.0, 91.0)" />
-	</nodes>
-	<links>
-		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
-		<link id="1" source_node_id="1" sink_node_id="4" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
-		<link id="2" source_node_id="1" sink_node_id="2" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
-		<link id="3" source_node_id="1" sink_node_id="3" source_channel="Selected Data" sink_channel="Data" enabled="true" source_channel_id="selected_data" sink_channel_id="data" />
-	</links>
-	<annotations />
-	<thumbnail />
-	<node_properties>
-		<properties node_id="0" format="literal">{'_session_items': [], '_session_items_v2': [({'type': 'AbsPath', 'path': 'C:/Users/scsvm/Documents/dashboards.txt'}, {'encoding': 'utf-8', 'delimiter': ',', 'quotechar': '"', 'doublequote': True, 'skipinitialspace': True, 'quoting': 0, 'columntypes': [{'start': 0, 'stop': 4, 'value': 'Auto'}], 'rowspec': [{'start': 0, 'stop': 1, 'value': 'Header'}], 'decimal_separator': '.', 'group_separator': ''})], 'compatibility_mode': False, 'controlAreaVisible': True, 'dialog_state': {'directory': 'C:/Users/scsvm/Downloads', 'filter': 'Text - comma separated (*.csv, *)'}, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x034\x00\x00\x01b\x00\x00\x04L\x00\x00\x02\xb8\x00\x00\x035\x00\x00\x01\x81\x00\x00\x04K\x00\x00\x02\xb7\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x035\x00\x00\x01\x81\x00\x00\x04K\x00\x00\x02\xb7', '__version__': 3}</properties>
-		<properties node_id="1" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02/\x00\x00\x01\x03\x00\x00\x05P\x00\x00\x03\x16\x00\x00\x020\x00\x00\x01"\x00\x00\x05O\x00\x00\x03\x15\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x020\x00\x00\x01"\x00\x00\x05O\x00\x00\x03\x15', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': True, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
-		<properties node_id="2" format="pickle">gASVOgMAAAAAAAB9lCiMDWF0dHJfeF9pc19hYnOUiYwNYXR0cl95X2lzX2Fic5SJjAthdXRvX2Nv
-bW1pdJSIjAthdXRvX3NhbXBsZZSIjBJjb250cm9sQXJlYVZpc2libGWUiIwTc2F2ZWRXaWRnZXRH
-ZW9tZXRyeZRDQgHZ0MsAAwAA//////////gAAAeAAAAEOAAAAAAAAAAXAAAHfwAABDcAAAAAAgAA
-AAeAAAAAAAAAABcAAAd/AAAEN5SMCXNlbGVjdGlvbpROjBF0b29sdGlwX3Nob3dzX2FsbJSIjA92
-aXN1YWxfc2V0dGluZ3OUfZSMBWdyYXBolH2UKIwLYWxwaGFfdmFsdWWUS4CMDWNsYXNzX2RlbnNp
-dHmUiYwRaml0dGVyX2NvbnRpbnVvdXOUiYwLaml0dGVyX3NpemWUSwCME2xhYmVsX29ubHlfc2Vs
-ZWN0ZWSUiYwWb3J0aG9ub3JtYWxfcmVncmVzc2lvbpSJjAtwb2ludF93aWR0aJRLCowMc2hvd19l
-bGxpcHNllImMCXNob3dfZ3JpZJSJjAtzaG93X2xlZ2VuZJSIjA1zaG93X3JlZ19saW5llIl1jAtf
-X3ZlcnNpb25fX5RLBYwQY29udGV4dF9zZXR0aW5nc5RdlIwVb3Jhbmdld2lkZ2V0LnNldHRpbmdz
-lIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwKYXR0cl9jb2xvcpROSv7///+GlIwKYXR0
-cl9sYWJlbJROSv7///+GlIwKYXR0cl9zaGFwZZROSv7///+GlIwJYXR0cl9zaXpllE5K/v///4aU
-jAZhdHRyX3iUjAVTYWxlc5RLZoaUjAxhdHRyX3hfbG93ZXKUTkr+////hpSMDGF0dHJfeF91cHBl
-cpROSv7///+GlIwGYXR0cl95lIwIUXVhbnRpdHmUS2aGlIwMYXR0cl95X2xvd2VylE5K/v///4aU
-jAxhdHRyX3lfdXBwZXKUTkr+////hpRoDH2UaBlLBXWMCmF0dHJpYnV0ZXOUfZQojAhDYXRlZ29y
-eZRLAYwGUmVnaW9ulEsBaCxLAmgzSwJ1jAVtZXRhc5R9lHViYXUu
-</properties>
-		<properties node_id="3" format="pickle">gASV+wEAAAAAAAB9lCiMCmF1dG9fYXBwbHmUiIwSY29udHJvbEFyZWFWaXNpYmxllIiMEGN1bXVs
-YXRpdmVfZGlzdHKUiYwTZml0dGVkX2Rpc3RyaWJ1dGlvbpRLAIwJaGlkZV9iYXJzlImMDWtkZV9z
-bW9vdGhpbmeUSwqME3NhdmVkV2lkZ2V0R2VvbWV0cnmUQ0IB2dDLAAMAAP/////////4AAAHgAAA
-BDgAAAAAAAAAFwAAB38AAAQ3AAAAAAIAAAAHgAAAAAAAAAAXAAAHfwAABDeUjApzaG93X3Byb2Jz
-lImMDHNvcnRfYnlfZnJlcZSJjA9zdGFja2VkX2NvbHVtbnOUiYwLX192ZXJzaW9uX1+USwKMEGNv
-bnRleHRfc2V0dGluZ3OUXZSMFW9yYW5nZXdpZGdldC5zZXR0aW5nc5SMB0NvbnRleHSUk5QpgZR9
-lCiMBnZhbHVlc5R9lCiMBGN2YXKUTkr+////hpSMDm51bWJlcl9vZl9iaW5zlEsASv7///+GlIwN
-c2VsZWN0ZWRfYmFyc5SPlEr+////hpSMA3ZhcpSMCENhdGVnb3J5lEtlhpRoDEsCdYwKYXR0cmli
-dXRlc5R9lChoHksBjAZSZWdpb26USwGMBVNhbGVzlEsCjAhRdWFudGl0eZRLAnWMBW1ldGFzlH2U
-dWJhdS4=
-</properties>
-		<properties node_id="4" format="pickle">gASVsgEAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZl
-ZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAAGJAAAAmwAABfYAAAN+AAABigAAALoAAAX1AAAD
-fQAAAAAAAAAAB4AAAAGKAAAAugAABfUAAAN9lIwJc2VsZWN0aW9ulE6MD3Zpc3VhbF9zZXR0aW5n
-c5R9lIwFZ3JhcGiUfZSMC19fdmVyc2lvbl9flEsBjBBjb250ZXh0X3NldHRpbmdzlF2UjBVvcmFu
-Z2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojAlhbm5vdF92
-YXKUTkr+////hpSMCWNvbG9yX3ZhcpROSv7///+GlIwJZ3JvdXBfdmFylE5K/v///4aUjAxzZWxl
-Y3RlZF92YXKUjAVTYWxlc5RLZoaUaAh9lGgKSwF1jAphdHRyaWJ1dGVzlH2UKIwIQ2F0ZWdvcnmU
-SwGMBlJlZ2lvbpRLAWgbSwKMCFF1YW50aXR5lEsCdYwFbWV0YXOUfZR1YmF1Lg==
-</properties>
-	</node_properties>
-	<session_state>
-		<window_groups />
-	</session_state>
-</scheme>
+# Experiment No. 9: Creating Basic Visualizations Using Orange Data Mining
+
+## Aim
+To create and analyze different data visualizations, including bar plots, scatter plots, and distribution plots, using Orange Data Mining.
+
+## Description
+Orange Data Mining is a visual programming tool used for data analysis, machine learning, and data visualization. It provides a drag-and-drop interface that allows users to import datasets, inspect data, and generate graphical representations without writing extensive code.
+
+In this experiment, a CSV dataset is imported using the **CSV File Import** widget. The **Data Table** widget displays the imported records, while the **Bar Plot**, **Scatter Plot**, and **Distributions** widgets help analyze sales values, relationships between numerical variables, and the distribution of data.
+
+## Applications
+- Analyzing sales and quantity information.
+- Comparing sales values across product categories.
+- Identifying relationships between sales and quantity.
+- Understanding the distribution of categorical and numerical data.
+- Presenting data in graphical form for easier interpretation.
+
+## Algorithm
+1. Start the Orange Data Mining application.
+2. Add the **CSV File Import** widget to the workflow.
+3. Import the dataset containing Category, Region, Sales, and Quantity columns.
+4. Configure the CSV import settings to recognize the first row as the header and use a comma as the delimiter.
+5. Connect the CSV File Import widget to the Data Table widget.
+6. Open Data Table and verify that the dataset has been imported correctly.
+7. Connect the Data Table widget to the Bar Plot, Scatter Plot, and Distributions widgets.
+8. Select the appropriate rows in Data Table if using the Selected Data connections.
+9. In Bar Plot, select Sales to compare sales values.
+10. In Scatter Plot, select Sales for the X-axis and Quantity for the Y-axis. Use Category to distinguish data points by category if desired.
+11. In Distributions, select Category to examine category frequencies or choose a numerical variable to inspect its distribution.
+12. Observe and interpret the generated visualizations.
+13. Save the Orange workflow.
+
+## Sample Dataset
+
+Save the following data as `dashboards.csv` or as a comma-separated `dashboards.txt` file.
+
+```csv
+Category,Region,Sales,Quantity
+Electronics,South,55000,2
+Electronics,North,20000,3
+Furniture,West,30000,4
+Furniture,South,25000,2
+Electronics,East,15000,5
+Furniture,South,40000,3
+```
+
+## Procedure
+
+### 1. Import the Dataset
+- Open Orange Data Mining.
+- Add the **CSV File Import** widget.
+- Browse for `dashboards.csv` or `dashboards.txt`.
+- Set the delimiter to a comma and identify the first row as the header.
+- Verify that the four columns are recognized correctly.
+
+### 2. Display the Dataset
+- Add the **Data Table** widget.
+- Connect CSV File Import to Data Table.
+- Open Data Table to inspect the imported records.
+
+### 3. Create a Bar Plot
+- Add the **Bar Plot** widget.
+- Connect Data Table to Bar Plot.
+- Select the `Sales` variable.
+- Examine the bar plot to compare sales values across the records or groups supported by the widget configuration.
+
+### 4. Create a Scatter Plot
+- Add the **Scatter Plot** widget.
+- Connect Data Table to Scatter Plot.
+- Set `Sales` as the X-axis and `Quantity` as the Y-axis.
+- Optionally, use `Category` as the point color to distinguish categories.
+- Observe the relationship between sales and quantity.
+
+### 5. Analyze Distributions
+- Add the **Distributions** widget.
+- Connect Data Table to Distributions.
+- Select `Category` to examine the frequency of records in each category.
+- Select `Sales` or `Quantity` to explore the distribution of numerical values.
+
+### 6. Save the Workflow
+- Verify that the visualizations display the expected data.
+- Save the workflow as an Orange `.ows` file for future use.
+
+**Important:** In this workflow, the three visualization widgets receive the Data Table's **Selected Data** output. Select the required rows in Data Table before opening the plots. To visualize the entire dataset without selecting rows, connect the Data Table's **Data** output directly to each visualization widget instead.
+
+## Expected Output
+1. A data table displaying the imported dataset.
+2. A bar plot for analyzing sales values.
+3. A scatter plot showing the relationship between Sales and Quantity.
+4. A distribution plot showing category frequencies or the distribution of a selected numerical variable.
+
+## Result
+The Orange Data Mining workflow is configured to import a CSV dataset and generate bar plot, scatter plot, and distribution visualizations. These visualizations help examine sales values, relationships between variables, and data distributions.
