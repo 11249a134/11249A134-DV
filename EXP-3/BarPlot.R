@@ -1,8 +1,33 @@
-subjects <- c("Python", "Java", "R", "Tableau", "SQL")
-marks <- c(85, 78, 82, 90, 88)
-barplot(marks,names.arg=subjects,main="Marks by Subject",xlab="Subject",ylab="Marks")
-"""
-Program Explanation:
-The barplot() function creates bars whose heights represent the supplied values. The names.arg
-argument supplies the category labels.
-"""
+## Program: Bar Chart Using R
+
+```r
+technology <- c("Python", "Java", "R", "Tableau", "SQL")
+student_marks <- c(85, 78, 82, 90, 88)
+
+barplot(
+  student_marks,
+  names.arg = technology,
+  main = "Comparison of Marks Across Subjects",
+  xlab = "Technology Subjects",
+  ylab = "Student Marks",
+  col = "lightblue"
+)
+```
+
+### Program Explanation
+
+- `technology` stores the category names displayed along the horizontal axis.
+- `student_marks` contains the marks associated with each category.
+- `barplot()` generates a bar chart in which the height of each bar corresponds to its numerical value.
+- `names.arg` assigns labels to the individual bars.
+- `main` specifies the heading displayed above the chart.
+- `xlab` and `ylab` describe the horizontal and vertical axes.
+- `col` sets the fill color of the bars.
+
+### Sample Output
+
+A vertical bar chart titled **“Comparison of Marks Across Subjects”** is displayed. Tableau has the highest mark at 90, while Java has the lowest at 78.
+
+### Result
+
+A bar chart was generated successfully in R to compare marks across five technology subjects.
