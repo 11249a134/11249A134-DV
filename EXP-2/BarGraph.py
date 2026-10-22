@@ -1,12 +1,32 @@
-import matplotlib.pyplot as plt
-subjects = ["Python", "Java", "R", "Tableau", "SQL"]
-marks = [85, 78, 82, 90, 88]
-plt.bar(subjects, marks)
-plt.title("Marks by Subject")
-plt.xlabel("Subject")
-plt.ylabel("Marks")
-plt.show()
+## Program: Bar Chart Visualization Using Matplotlib
 
-"""Program Explanation
-The bar() function creates vertical bars. The height of each bar represents the corresponding mark.
-Bar charts are useful for comparing independent categories."""
+```python
+import matplotlib.pyplot as plt
+
+technology_names = ["Python", "Java", "R", "Tableau", "SQL"]
+student_scores = [85, 78, 82, 90, 88]
+
+plt.bar(technology_names, student_scores, color="skyblue")
+plt.title("Comparison of Student Scores")
+plt.xlabel("Programming Technologies")
+plt.ylabel("Score Obtained")
+plt.show()
+```
+
+### Program Explanation
+
+- `matplotlib.pyplot` is imported to create and display the chart.
+- `technology_names` stores the names of the five technologies.
+- `student_scores` contains the corresponding scores.
+- `plt.bar()` draws a vertical bar for each technology, with its height representing the score.
+- `plt.title()` adds a heading to the chart.
+- `plt.xlabel()` and `plt.ylabel()` label the horizontal and vertical axes.
+- `plt.show()` displays the completed visualization.
+
+### Sample Output
+
+A vertical bar chart titled **“Comparison of Student Scores”** appears, showing the scores for Python, Java, R, Tableau, and SQL. Tableau has the highest score (90), while Java has the lowest score (78).
+
+### Result
+
+A bar chart was successfully created using Matplotlib to compare scores across five technology subjects.
