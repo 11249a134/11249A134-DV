@@ -1,19 +1,43 @@
-Experiment No. 3 Basic Visualization in R
+# Experiment No. 3: Basic Visualization in R
 
-Aim: To create and understand different basic graphs and visualizations using R programming.
+## Aim
+To implement fundamental data visualization techniques in R and examine how different graphical representations help in analyzing and interpreting data.
 
-Description: R is a programming language and environment widely used for statistical computing, data analysis and visualization. It contains many built-in functions for creating graphs and also supports advanced packages such as ggplot2. The base R graphics system is especially useful for learning fundamentalvisualization concepts because common graphs can be created with short programs. Visualization in R allows an analyst to explore data before performing detailed statistical analysis. A line graph can show changes across an ordered sequence, a bar chart can compare categories, apie chart can display proportions, a scatter plot can show relationships between numerical variables,and a histogram can show the distribution of numerical observations. In this experiment, five basic visualization programs are implemented using base R. Each program demonstrates a different graph type. These programs help students understand how vectors are cre- ated, how graph functions receive data, and how titles and labels are added. The same visualization principles can later be applied to larger datasets and advanced R packages.
+## Description
+R is a programming language designed for statistical analysis, data manipulation, and graphical presentation. Its built-in graphics functions allow users to create visualizations without installing additional packages. For more advanced and customized graphics, R also provides packages such as `ggplot2`.
 
-Uses: • Statistical data exploration. • Visual comparison of categories. • Trend analysis. • Relationship analysis. • Distribution analysis. • Presentation of analytical results.
+Graphs play an important role in exploratory data analysis because they help reveal important characteristics of a dataset before applying statistical methods. Different graphs are suitable for different purposes. Line graphs illustrate changes across ordered observations, bar charts compare categories, pie charts show proportions, scatter plots display relationships between numerical variables, and histograms summarize the frequency distribution of data.
 
-Algorithm:
+In this experiment, five basic graphs are developed using base R functions. Each program demonstrates how data can be stored in vectors, passed to a plotting function, and presented with suitable titles and labels. These techniques form the foundation for visualizing larger datasets and developing more advanced analytical reports.
 
-Create the required R vectors.
-Select a suitable visualization function.
-Pass the data to the graph function.
-Add title and axis labels.
-Execute the R program.
-Observe and interpret the graph.
-Libraries / Functions Used: • plot() – creates line and scatter plots. • barplot() – creates bar charts. • pie() – creates pie charts. • hist() – creates histograms. • Base R – provides these functions without requiring an external package.
+## Applications
+- Exploring data before performing statistical analysis.
+- Comparing values among different categories.
+- Observing changes and trends in ordered data.
+- Examining associations between numerical variables.
+- Understanding the spread and frequency of observations.
+- Communicating analytical findings through graphical displays.
 
-Result: Thus, five basic visualizations—line graph, bar chart, pie chart, scatter plot and histogram—were successfully created using R programming.
+## Algorithm
+1. Start the R environment.
+2. Define vectors containing the required sample data.
+3. Choose a graph function based on the visualization objective.
+4. Supply the data and any required category labels to the function.
+5. Add a suitable chart title and axis labels wherever applicable.
+6. Execute the program to generate the graph.
+7. Examine the visualization and interpret the displayed information.
+
+## Functions Used
+
+| Function | Purpose |
+|---|---|
+| `plot()` | Creates line graphs and scatter plots, depending on the arguments supplied. |
+| `barplot()` | Represents values using rectangular bars for category comparison. |
+| `pie()` | Displays the relative proportions of values as circular sectors. |
+| `hist()` | Groups numerical observations into intervals and displays their frequencies. |
+| `c()` | Combines values into a vector for use in the plotting programs. |
+
+These functions belong to the base R graphics system, so the five programs can be executed without installing external visualization packages.
+
+## Result
+The five fundamental visualizations—line graph, bar chart, pie chart, scatter plot, and histogram—were implemented using base R. The experiment demonstrates how graphical functions can be used to compare categories, identify trends, investigate relationships, and understand the distribution of numerical data.
