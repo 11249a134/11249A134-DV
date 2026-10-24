@@ -1,6 +1,6 @@
 ## Program: Pie Chart for Category Proportions
 
-```python
+python
 import matplotlib.pyplot as plt
 
 technologies = ["Python", "Java", "R", "Tableau"]
@@ -15,7 +15,7 @@ plt.pie(
 
 plt.title("Percentage Share of Technologies")
 plt.show()
-```
+
 
 ### Program Explanation
 
@@ -28,9 +28,7 @@ plt.show()
 - `plt.title()` adds a descriptive heading.
 - `plt.show()` displays the completed chart.
 
-### Sample Output
 
-A pie chart titled **“Percentage Share of Technologies”** is displayed with the following proportions:
 
 - Python: 35%
 - Java: 25%
