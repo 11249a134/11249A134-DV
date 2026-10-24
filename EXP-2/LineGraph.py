@@ -1,6 +1,6 @@
 ## Program: Line Graph Using Matplotlib
 
-```python
+python
 import matplotlib.pyplot as plt
 
 time_points = [1, 2, 3, 4, 5]
@@ -15,7 +15,7 @@ plt.ylabel("Recorded Value")
 plt.legend()
 plt.grid(True)
 plt.show()
-```
+
 
 ### Program Explanation
 
@@ -30,9 +30,7 @@ plt.show()
 - `plt.grid(True)` adds grid lines to make values easier to read.
 - `plt.show()` displays the final graph.
 
-### Sample Output
 
-A line graph titled **“Variation in Values Across Data Points”** appears. The values increase from 10 to 15, decrease to 12, and then rise to 18 and 20.
 
 ### Result
 
