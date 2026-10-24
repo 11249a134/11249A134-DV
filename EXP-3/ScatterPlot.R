@@ -18,7 +18,7 @@ A scatter plot represents the relationship between two numerical variables using
 
 ## Code
 
-```r
+r
 # Record the study hours and corresponding marks
 study_hours <- c(1, 2, 3, 4, 5, 6)
 student_marks <- c(45, 50, 58, 65, 72, 80)
@@ -30,7 +30,7 @@ plot(study_hours, student_marks,
      ylab = "Marks Obtained",
      pch = 19,
      col = "darkgreen")
-```
+
 
 ## Program Explanation
 - `study_hours`: Contains the number of hours spent studying.
@@ -41,8 +41,6 @@ plot(study_hours, student_marks,
 - `pch = 19`: Represents each observation using a solid circular point.
 - `col`: Specifies the color of the points.
 
-## Output
-A scatter plot titled **Study Hours vs Marks** appears with study hours on the horizontal axis and marks on the vertical axis. The points show an upward pattern, indicating a positive association between study hours and marks in the given data.
 
 ## Result
 The scatter plot was successfully generated using R. The graph illustrates a positive relationship between study hours and student marks for the observations provided.
