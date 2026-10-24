@@ -1,6 +1,6 @@
 ## Program: Bar Chart Using R
 
-```r
+r
 technology <- c("Python", "Java", "R", "Tableau", "SQL")
 student_marks <- c(85, 78, 82, 90, 88)
 
@@ -12,7 +12,7 @@ barplot(
   ylab = "Student Marks",
   col = "lightblue"
 )
-```
+
 
 ### Program Explanation
 
@@ -24,9 +24,6 @@ barplot(
 - `xlab` and `ylab` describe the horizontal and vertical axes.
 - `col` sets the fill color of the bars.
 
-### Sample Output
-
-A vertical bar chart titled **“Comparison of Marks Across Subjects”** is displayed. Tableau has the highest mark at 90, while Java has the lowest at 78.
 
 ### Result
 
