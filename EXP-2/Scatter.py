@@ -1,6 +1,6 @@
 ## Program: Scatter Plot for Analyzing Study Performance
 
-```python
+python
 import matplotlib.pyplot as plt
 
 study_duration = [1, 2, 3, 4, 5, 6]
@@ -14,7 +14,7 @@ plt.xlabel("Hours Spent Studying")
 plt.ylabel("Student Score")
 plt.grid(True)
 plt.show()
-```
+
 
 ### Program Explanation
 
@@ -28,9 +28,6 @@ plt.show()
 - `plt.grid(True)` adds reference lines to help read the plotted values.
 - `plt.show()` displays the scatter plot.
 
-### Sample Output
-
-A scatter plot titled **“Relationship Between Study Time and Performance”** appears. The points show an upward pattern: higher study durations correspond to higher marks in this sample dataset.
 
 ### Result
 
