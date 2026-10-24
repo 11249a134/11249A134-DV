@@ -25,7 +25,7 @@ Visualization tools are widely used in education, business, research, healthcare
 
 ## Program
 
-```python
+python
 import matplotlib
 import seaborn
 import plotly
@@ -123,16 +123,6 @@ A predictive model learns patterns from historical observations and applies them
 
 A **data analyst** typically prepares datasets, performs analysis, creates reports, and communicates findings. A **data scientist** may additionally develop statistical models, machine learning systems, and advanced prediction methods. Both roles benefit from programming, statistical knowledge, problem-solving, and the ability to explain results clearly.
 
-## Sample Output
-
-```text
-Matplotlib Version: [installed version]
-Seaborn Version: [installed version]
-Plotly Version: [installed version]
-Pandas Version: [installed version]
-```
-
-*Note: The actual version numbers depend on the libraries installed on the computer running the program.*
 
 ## Result
 
