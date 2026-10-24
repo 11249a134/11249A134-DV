@@ -18,7 +18,7 @@ A line graph is used to display changes or patterns in data by connecting plotte
 
 ## Code
 
-```r
+r
 # Define the values for both axes
 x_values <- c(1, 2, 3, 4, 5)
 y_values <- c(10, 15, 12, 18, 20)
@@ -31,7 +31,7 @@ plot(x_values, y_values,
      ylab = "Y Values",
      col = "blue",
      pch = 16)
-```
+
 
 ## Program Explanation
 - `c()`: Combines the given numbers into a numeric vector.
@@ -43,8 +43,6 @@ plot(x_values, y_values,
 - `col = "blue"`: Sets the color of the plotted points and lines.
 - `pch = 16`: Displays solid circular points.
 
-## Output
-A line graph titled **Line Graph** is displayed, with X values from 1 to 5 and their corresponding Y values connected by lines and marked with points.
 
 ## Result
 The line graph was successfully generated using R. It illustrates the changes in Y values corresponding to the given X values and makes the overall trend easy to observe.
