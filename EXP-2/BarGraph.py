@@ -1,6 +1,6 @@
 ## Program: Bar Chart Visualization Using Matplotlib
 
-```python
+python
 import matplotlib.pyplot as plt
 
 technology_names = ["Python", "Java", "R", "Tableau", "SQL"]
@@ -11,7 +11,7 @@ plt.title("Comparison of Student Scores")
 plt.xlabel("Programming Technologies")
 plt.ylabel("Score Obtained")
 plt.show()
-```
+
 
 ### Program Explanation
 
@@ -23,9 +23,6 @@ plt.show()
 - `plt.xlabel()` and `plt.ylabel()` label the horizontal and vertical axes.
 - `plt.show()` displays the completed visualization.
 
-### Sample Output
-
-A vertical bar chart titled **“Comparison of Student Scores”** appears, showing the scores for Python, Java, R, Tableau, and SQL. Tableau has the highest score (90), while Java has the lowest score (78).
 
 ### Result
 
