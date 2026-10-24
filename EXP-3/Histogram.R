@@ -18,7 +18,7 @@ A histogram is a graphical representation of numerical data that groups values i
 
 ## Code
 
-```r
+r
 # Store the marks obtained by students
 student_marks <- c(45, 50, 52, 55, 58, 60, 62, 65, 68,
                    70, 72, 75, 78, 80, 82, 85, 88, 90)
@@ -31,7 +31,7 @@ hist(student_marks,
      ylab = "Number of Students",
      col = "lightblue",
      border = "black")
-```
+
 
 ## Program Explanation
 - `student_marks`: Stores the marks of 18 students in a numeric vector.
@@ -43,8 +43,7 @@ hist(student_marks,
 - `col`: Sets the fill color of the bars.
 - `border`: Specifies the outline color of the bars.
 
-## Output
-A histogram titled **Student Marks Distribution** is displayed, showing the frequency of student marks across different intervals.
+
 
 ## Result
 The histogram was successfully created using R. The visualization helps identify how student marks are distributed across the selected intervals.
