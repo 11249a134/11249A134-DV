@@ -1,6 +1,6 @@
 ## Program: Histogram Using Matplotlib
 
-```python
+python
 import matplotlib.pyplot as plt
 
 student_scores = [
@@ -14,7 +14,7 @@ plt.title("Frequency Distribution of Student Scores")
 plt.xlabel("Score Ranges")
 plt.ylabel("Number of Students")
 plt.show()
-```
+
 
 ### Program Explanation
 
@@ -26,9 +26,7 @@ plt.show()
 - `plt.xlabel()` and `plt.ylabel()` identify the information shown on the horizontal and vertical axes.
 - `plt.show()` displays the completed histogram.
 
-### Sample Output
 
-A histogram titled **“Frequency Distribution of Student Scores”** is displayed. The bars represent how many scores fall within each of the five intervals.
 
 ### Result
 
