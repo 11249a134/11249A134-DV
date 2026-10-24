@@ -18,7 +18,7 @@ A pie chart is a circular graph divided into sectors, where each sector represen
 
 ## Code
 
-```r
+r
 # Define the values for each technology
 technology_values <- c(35, 25, 20, 20)
 
@@ -30,7 +30,7 @@ pie(technology_values,
     labels = technology_names,
     main = "Technology Usage",
     col = c("skyblue", "orange", "lightgreen", "pink"))
-```
+
 
 ## Program Explanation
 - `technology_values`: Stores the numerical values associated with each technology.
@@ -40,8 +40,6 @@ pie(technology_values,
 - `main`: Specifies the title of the visualization.
 - `col`: Assigns different colors to the sectors for easier identification.
 
-## Output
-A pie chart titled **Technology Usage** is displayed, containing four sectors representing Python, Java, R, and Tableau. Python occupies the largest sector, followed by Java, while R and Tableau have equal-sized sectors.
 
 ## Result
 The pie chart was successfully created using R. It provides a visual comparison of the relative proportions of the four technology categories.
